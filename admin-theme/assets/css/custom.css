@@ -1,0 +1,416 @@
+/* Write your custom CSS here */
+section{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.topmenu-outer{
+	background:#ACCE22;
+}
+.page-content{
+	box-shadow:unset;
+	-webkit-box-shadow:unset;
+	-moz-box-shadow:unset;
+}
+.page-header-fixed:not(.page-sidebar-fixed):not(.page-horizontal-bar) .page-inner.public{
+	padding-top:50px;
+}
+.panel-green .panel-body i, .panel-green .panel-body p, .panel-green .panel-body span.info-box-title,
+.panel-red .panel-body i, .panel-red .panel-body p, .panel-red .panel-body span.info-box-title, 
+.top-menu .navbar-nav>li>a{
+	color:#fff;
+}
+.top-menu .nav .open>a, .top-menu .nav .open>a:focus, .top-menu .nav .open>a:hover, .top-menu .nav>li>a:active, .top-menu .nav>li>a:focus, .top-menu .nav>li>a:hover{
+	background:#62C3D0;
+	color:#fff;
+}
+.page-footer, .nw{
+	background:#F1F4F9;
+}
+.btn-ijo,
+.btn-ijo:hover, .btn-ijo:focus, .btn-ijo:active, .btn-ijo:active:focus, .btn-ijo:active:hover,
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+	background:#ACCE22;
+	color:#fff;
+	border-color:transparent;
+}
+.btn-tosca,
+.btn-tosca:hover, .btn-tosca:focus, .btn-tosca:active, .btn-tosca:active:focus, .btn-tosca:active:hover{
+	background:#5CC6D0;
+	color:#fff;
+	border-color:transparent;
+}
+.page-footer.homepublic{
+	position:relative;
+}
+.sub-footer{
+	padding-top:15px;
+	padding-bottom:15px;
+	background:#fff;
+}
+.top-menu .navbar-nav.navbar-right>li>a, .dropdown-menu li a, .top-menu .navbar-nav>li>a>i{
+	font-weight:bold;
+	font-size:15px;
+}
+/* .logo-box{ */
+	/* border-right:1px solid #fff; */
+/* } */
+.navbar .dropdown .dropdown-menu{
+	border:1px solid #ccc !important;
+}
+.dataTables_wrapper .dataTables_processing{
+	color:#ACCE22;
+	font-weight:bold;
+}
+.panel-white .panel-heading .panel-control a.btn-ijo, .panel-white .panel-heading .panel-control a.btn-ijo:hover{
+	color:#fff;
+}
+.image-preview {
+  width: 100%;
+  height: auto;
+  min-height: 200px;
+  position: relative;
+  overflow: hidden;
+  background-color: #eee;
+  color: #ecf0f1;
+  border:1px solid #ccc;
+  margin-bottom:20px;
+}
+.image-preview input {
+  line-height: 200px;
+  font-size: 200px;
+  position: absolute;
+  opacity: 0;
+  z-index: 10;
+}
+.image-preview label {
+  position: absolute;
+  z-index: 5;
+  opacity: 1;
+  cursor: pointer;
+  background-color: #ACCE22;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  text-transform: uppercase;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  color:#fff;
+}
+.image-preview.terisi label{
+	opacity:0.75;
+}
+.image-preview:hover, .image-preview input:hover, .image-preview label:hover{
+	cursor:pointer;
+}
+.verifikasi-img{
+	width:100%;
+	float:left;
+	background-color:#f6f6f6;
+	height:200px;
+}
+.campaign-item{
+	margin-top:20px;
+	float:left;
+	width:100%;
+}
+.campaign-img{
+	width:100%;
+	background:#eee;
+}
+.campaign-thumbnail{
+	width:100%;
+	height:200px;
+}
+.campaign-item .panel-heading{
+	height:auto;
+}
+.campaign-item a{
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+}
+.campaign-item .panel-body{
+	height:220px;
+	overflow:hidden;
+}
+.campaign-item .panel-body h4{
+	line-height:1.5;
+	margin-top:0;
+}
+.campaign-item .panel-body h3{
+	margin-top:0;
+}
+.campaign-item .panel-body h3 i{
+	vertical-align:middle;
+}
+.campaign-item .panel-footer{
+	background:#fff;
+	width:100%;
+	float:left;
+}
+.campaign-item .panel-footer ul.menu{
+	list-style-type:none;
+	margin:0;
+	background:none;
+	padding:0;
+}
+.campaign-item .panel-footer ul.menu li{
+	float:left;
+	border-right:1px solid #ccc;
+	padding:0 15px;
+	width:26%;
+	text-align:center;
+}
+.campaign-item .panel-footer ul.menu li h4{
+	margin-bottom:5px;
+	margin-top:0;
+}
+.campaign-item .panel-footer ul.menu li:first-child{
+	width:48%;
+}
+.campaign-item .panel-footer ul.menu li:last-child{
+	border:0;
+}
+.campaign-item .panel-footer p{
+	line-height:16px;
+	margin:0;
+}
+.camp-img{
+	width:100%;
+	float:left;
+	text-align:center;
+	height:380px;
+	line-height:380px;
+	background:#eee;
+}
+.camp-img img{
+	max-width:100%;
+	float:none;
+	display:inline-block;
+	max-height:380px;
+	vertical-align:middle;
+}
+.camp-short{
+	font-size:1.4em;
+	margin:20px 0;
+	float:left;
+	width:100%;
+}
+.btn-besar{
+	font-size:2em;
+}
+.campaigndetail h1, .campaigndetail .capaian{
+	font-weight:bold;
+}
+.campaigndetail .capaian{
+	font-size:2em;
+	margin-top:15px;
+	text-align:center;
+}
+.progress{
+	background-color:#fff;
+	-webkit-box-shadow:unset;
+	-moz-box-shadow:unset;
+	box-shadow:unset;
+	border:1px solid #ccc;
+	margin-bottom:5px;
+	border-radius:6px;
+}
+.progress-bar{
+	-webkit-box-shadow:unset;
+	-moz-box-shadow:unset;
+	box-shadow:unset;
+}
+.progress-text{
+	float:left;
+	width:100%;
+	font-weight:400;
+	font-size:16px;
+	margin-bottom:15px;
+}
+.campaigndetail .target{
+	font-size:16px;
+	text-align:center;
+}
+.campaigndetail .campaigner{
+	width:100%;
+	float:left;
+	text-align:center;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.campaigndetail .campaigner .campaigner-img{
+	width:100px;
+	height:100px;
+	display:inline-block;
+	float:none;
+	border-radius:5px;
+}
+.campaigndetail .campaigner .campaigner-name{
+	font-weight:bold;
+	font-size:15px;
+}
+.campaigndetail .campaigner .campaigner-name span{
+	color:#ACCE22;
+	font-size:20px;
+	vertical-align:middle;
+}
+.tooltip .tooltip-inner{
+	background:#ACCE22;
+	font-size:14px;
+	border-radius:3px;
+}
+.tooltip.top .tooltip-arrow{
+	border-top-color:#ACCE22;
+}
+.separator{
+	width:100%;
+	height:30px;
+}
+.campaign-long p{
+	font-size:16px;
+	line-height:1.7;
+}
+.disclaimer{
+	width:100%;
+	float:left;
+	padding:15px;
+	border:1px solid #ccc;
+}
+.btn-layang{
+	width:250px;
+	position:fixed;
+	top:-60px;
+	display:block;
+	right:45%;
+	-webkit-transition: all 1s; /* Safari */
+    transition: all 1s;
+	z-index:999;
+}
+.btn-layang.show{
+	top:5px;
+}
+
+@media (max-width: 767px){
+	.page-header-fixed .navbar{
+		position:relative;
+	}
+	.navbar .logo-box{
+		background:#fff !important;
+	}
+	.general .navbar .logo-box{
+		background:#ACCE22 !important;
+	}
+	.push-sidebar{
+		color:#ACCE22;
+		background:none;
+		text-decoration:none;
+	}
+	.push-sidebar:hover, .push-sidebar:active{
+		color:#fff;
+		background:#ACCE22;
+		text-decoration:none;
+	}
+	.push-sidebar:focus{
+		color:#ACCE22;
+		background:none;
+		text-decoration:none;
+	}
+	.page-header-fixed:not(.page-sidebar-fixed):not(.page-horizontal-bar) .page-inner, .page-header-fixed:not(.page-sidebar-fixed):not(.page-horizontal-bar) .page-inner.public{
+		padding-top:0;
+	}
+	.admin-page.page-header-fixed:not(.page-sidebar-fixed):not(.page-horizontal-bar) .page-inner{
+		padding-top:50px;
+	}
+	/* .general .page-header-fixed:not(.page-sidebar-fixed):not(.page-horizontal-bar) .page-inner{ */
+		/* padding-top:60px; */
+	/* } */
+	.top-menu{
+		display:block;
+		position:absolute;
+		float:left;
+		width:100%;
+		top:60px;
+		font-size:2em;
+		background:#ACCE22;
+	}
+	.general .top-menu{
+		top:0;
+		font-size:2em;
+		background:none;
+	}
+	.top-menu .navbar-nav.navbar-right{
+		margin:0;
+		float:left;
+		width:100%;
+	}
+	.top-menu.visible-xs-block > div > a, .top-menu.visible-xs-block > .mobile-menu > div > a{
+		padding:10px;
+		color:#fff;
+	}
+	.top-menu .mobile-menu .dropdown{
+		position:unset;
+	}
+	.top-menu .mobile-menu .dropdown.open{
+		background:#62C3D0;
+	}
+	.top-menu .mobile-menu .dropdown .dropdown-menu{
+		right:0;
+		left:0;
+		border-width:0 0 1px !important;
+		margin-top:0 !important;
+	}
+	.top-menu .mobile-menu .dropdown .dropdown-menu>li>a.btn{
+		color:#fff;
+	}
+	.top-menu .mobile-menu .dropdown .dropdown-menu>li.panel-body{
+		background:#62C3D0;
+		color:#fff;
+	}
+	.top-menu .navbar-nav.mobile-menu>li{
+		display:inline-block;
+		position:unset;
+	}
+	.admin-page .top-menu .navbar-nav.navbar-right>li{
+		float:left;
+		width:20%;
+		position:unset;
+	}
+	.admin-page .top-menu .navbar-nav>li>a, .top-menu .navbar-nav.mobile-menu>li>a{
+		padding:13px;
+		text-align:center;
+	}
+	.navbar-right .open .dropdown-menu,  .navbar-nav.mobile-menu .open .dropdown-menu{
+		margin-top:0 !important;
+		position:absolute;
+		right:0;
+		background-color:#fff;
+	}
+	.page-header-fixed .page-sidebar{
+		padding-top:110px;
+	}
+	.dropdown-menu:before, .dropdown-menu:after{
+		display:none !important;
+	}
+	.btn-layang{
+		width:auto;
+		right:-48px;
+		top:-85px
+	}
+	.btn-layang.show{
+		top:50px;
+	}
+	.btn-layang .btn{
+		transform: rotate(-90deg);
+	}
+}
+
+
